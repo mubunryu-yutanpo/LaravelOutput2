@@ -1,0 +1,14 @@
+.u_margin{
+    margin: $space_30 auto;
+    &-2{
+        margin: $space_40 $space_default;
+    }
+    &-bottom{
+        margin-bottom: $space_30;
+        &-menu{
+            @include mq(){
+                margin-bottom: 200px;
+            }
+        }
+    }
+}

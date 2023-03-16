@@ -1,0 +1,16 @@
+.pagination {
+    margin: $space_30 0;
+}
+.page-item{
+    background-color: $light-green;
+}
+.page-item.active .page-link {
+    color: #fff;
+    background-color: $red;
+    border-color: $red;
+}
+.page-link {
+    color: $text-color;
+    background-color: $light-green;
+    border: 1px solid $green;
+}

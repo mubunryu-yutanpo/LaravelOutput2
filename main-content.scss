@@ -1,0 +1,156 @@
+.c_content-{
+    &title{
+        margin: $space_20 0;
+        &-text{
+            font-size: $font-size_l;
+            margin-left: $space-5;
+            & .fa-book{
+                color: $green;
+            }
+            & .fa-triangle-exclamation{
+                color: red;
+            }
+        }
+    }
+    &card{
+        width: 90%;
+        margin: $space_20 auto;
+        &-title{
+            font-size: $font-size_l;
+            font-weight: bold;
+            text-align: center;
+            padding: $space_10;
+            margin: 0;
+            &.bg-1{
+                background-color: $green;
+                color:#fff;
+            }
+            &.bg-2{
+                background-color: $light-green;
+                color: $text-color;
+            }
+        }
+        &-wrap{
+            align-items: center;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            padding: $space_default 0;
+        }
+        &-link{
+            color: #fff;
+            background-color: $red;
+            border-radius: 5px;
+            padding: $space-10 $space_default;
+            text-decoration: none;
+            transition: all .5s;
+            &:hover{
+                background-color: $red-hover;
+                color: $text-color;
+                transition: all .5s;
+            }
+        }
+        &-about{
+            background: $default-bg;
+            padding: $space_20 $space-10 $space-5;
+        }
+        &-text{
+            background-color: $light-green;
+            padding: $space_20 $space_default;
+        }
+        &-select{
+            margin: $space_default auto;
+            width: 100%;
+            &-list{
+                margin: $space_20 0;
+                width: 100%;
+            }
+            &-btn{
+                background-color: rgba(255, 255, 255, 0.7);
+                border-radius: 10px;
+                box-shadow: 0 2px 0px 1px #fff;
+                color: $text-color;
+                padding: $space_default;
+                width: 100%;
+                transition: all .3s;
+                transform: translateY(-3px);
+                &:hover{
+                    background-color: #eee;
+                    box-shadow: none;
+                    transition: all .3s;
+                    transform: translateY(3px);
+                }
+            }
+        }
+        &-answered{
+            background-color: $cleam;
+            padding: $space_20;
+            &-result{
+                font-size: $font-size_xl;
+                margin-bottom: $space_30;
+                text-align: center;
+                & .fa-xmark{
+                    color: #000;
+                    margin-right: $space-5;
+                }
+                & .fa-circle{
+                    color: $red;
+                    margin-right: $space-5;
+                }
+            }
+            &-btn{
+                background-color: $red;
+                border-radius: 10px;
+                color: #fff;
+                margin: $space_30 0 $space_default;
+                padding: $space_default $space_20;
+                &:hover{
+                    background-color: $red-hover;
+                    color: $text-color;
+                }
+            }
+        }
+        &-finished{
+            font-size: $font-size_l;
+            width: 90%;
+            margin: $space_20 auto;
+            &-result{
+                background-color: $light-green;
+                border-radius: 5px;
+                padding: $space_default;
+                &-text{
+                    color: $red;
+                    font-size: $font-size_xl;
+                    margin: $space-5;
+                }
+            }
+            &-next{
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                margin: $space_30 auto 0;
+                &-link{
+                    background-color: $red;
+                    border-radius: 10px;
+                    box-shadow: 0 6px 0px 1px red;
+                    color: #fff;
+                    margin: $space_20 0;
+                    text-align: center;
+                    transition: all .3s;
+                    transform: translateY(-3px);
+                    padding: $space_default;
+                    width: 100%;
+                    &:hover{
+                        background-color: $red-hover;
+                        box-shadow: 0 1px 0px 1px red;
+                        color: $text-color;
+                        transition: all .3s;
+                        transform: translateY(3px);
+                    }
+    
+                }
+            }
+        }
+    }
+
+}

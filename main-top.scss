@@ -1,0 +1,13 @@
+.c_main_top{
+    &-container{
+        padding-top: $space_20;
+        margin-bottom: $space_20;
+    }
+    &-title{
+        text-align: center;
+    }
+    &-name{
+        text-align: right;
+        margin-right: $space_10;
+    }
+}

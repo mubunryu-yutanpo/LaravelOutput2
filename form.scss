@@ -1,0 +1,17 @@
+.p_form-{
+    &container{
+        width: 80%;
+        margin: $space_20 auto;
+        @include mq(){
+            width: 95%;
+        }
+    }
+    &textarea{
+        border: 1px solid #ced4da;
+        width: 100%;
+    }
+    &submit{
+        text-align: right;
+        margin: $space_30 0 0;
+    }
+}
